@@ -8,10 +8,9 @@ new Vue({
 		productList: []
 	},
 	mounted(){
-		var self = this
 		$.getJSON('products.jsonp', function(data){
-			self.productList = data[0]
+			productList = data[0]
 		})
-		console.log(self.productList);
+		console.log(productList)
 	}
 })
