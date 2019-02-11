@@ -9,13 +9,13 @@
 <body>
 	<div class="container">
 		<div class="row" id="app">
-			<good v-for="good in goods"></good>
+			<good></good>
 		</div>
 	</div>
 
 	<template id="good-template">
 		<div class="col-lg-4 col-md-3 col-sm-2 col-xs-1 good">
-			<div class="card" style="width: 18rem;">
+			<div class="card">
 				<img src="..." class="card-img-top" alt="...">
 				<div class="card-body">
 					<h5 class="card-title">Card title</h5>
@@ -25,9 +25,10 @@
 			</div>
 		</div>
 	</template>
-
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
-	<script type="text/javascript" src="products.json"></script>
+	<script type="text/javascript" src="products.jsonp"></script>
 	<script src="app.js"></script>
 </body>
 </html>
