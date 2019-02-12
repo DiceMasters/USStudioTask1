@@ -22,6 +22,14 @@
 		  font-weight: 600;
 		  margin-top: -15px;
 		}
+		
+		.goods{
+			margin-bottom: -15px;
+		}
+
+		.good{
+			margin-bottom: 15px;
+		}
 	</style>
 </head>
 <body>
@@ -33,7 +41,7 @@
 	      </button>
 	    </div>
 	  </div>
-	  <div class="row">
+	  <div class="row goods">
 	    <good
 	      v-for="prod in productData"
 	      v-bind:key="prod.id"
