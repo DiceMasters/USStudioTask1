@@ -2,15 +2,43 @@
 	{
 		"id": 0,
 		"name": "Bosch BGN21800",
-		"description": "fd",
+		"description": "Пылесосу с контейнером для пыли Bosch BGN21800 найдётся место даже в небольшой квартире.",
 		"photo": "https://img.mvideo.ru/Pdb/20032232b.jpg",
 		"price": 5790
 	},
 	{
 		"id": 1,
 		"name": "Samsung SC20M2540JN",
-		"description": "df",
+		"description": "Samsung SC20M2540JN – лёгкий и манёвренный, но мощный пылесос.",
 		"photo": "https://img.mvideo.ru/Pdb/20037982b.jpg",
 		"price": 7690
-	}
+	},
+	{
+		"id": 2,
+		"name": "Tefal Xtrem Power TW6886EA",
+		"description": "Пылесос Tefal Xtrem Power TW6886EA использует инновационный мотор Effitech.",
+		"photo": "https://img.mvideo.ru/Pdb/20039793m.jpg",
+		"price": 12990
+	},
+	{
+		"id": 3,
+		"name": "Tefal Сompact Power TW3931",
+		"description": "Пылесос с пылесборником Tefal Сompact Power TW3931 превратит уборку дома из рутинной обязанности в быстрый и приятный процесс.",
+		"photo": "https://img.mvideo.ru/Pdb/20041021b.jpg",
+		"price": 5990
+	},
+	{
+		"id": 4,
+		"name": "Samsung SC4520",
+		"description": "Samsung SC4520 – современный пылесос с контейнером для пыли.",
+		"photo": "https://img.mvideo.ru/Pdb/20022884b.jpg",
+		"price": 4990
+	},
+	{
+		"id": 5,
+		"name": "Midea VCS35B15K-B",
+		"description": "Midea VCS35B15K-B – компактный пылесос с контейнером для пыли, оснащённый прорезиненными манёвренными колёсами и телескопической ручкой.",
+		"photo": "https://img.mvideo.ru/Pdb/30029910b.jpg",
+		"price": 7690
+	},
 ]
