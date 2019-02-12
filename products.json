@@ -2,13 +2,17 @@
 	"products": [
 		{
 			"id": 0,
-			"name": "LG Kompressor VK89383HU",
-			"description": "fd"
+			"name": "Bosch BGN21800",
+			"description": "fd",
+			"photo": "https://img.mvideo.ru/Pdb/20032232b.jpg",
+			"price": "5790"
 		},
 		{
 			"id": 1,
 			"name": "Samsung SC20M2540JN",
-			"description": "df"
+			"description": "df",
+			"photo": "https://img.mvideo.ru/Pdb/20037982b.jpg",
+			"price": "7690"
 		}
 	]
 }
