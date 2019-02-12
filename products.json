@@ -1,12 +1,12 @@
 {
 	"products": [
 		{
-			"id": 0,
+			"id": "0",
 			"name": "LG Kompressor VK89383HU",
 			"description": "fd"
 		},
 		{
-			"id": 1,
+			"id": "1",
 			"name": "Samsung SC20M2540JN",
 			"description": "df"
 		}
