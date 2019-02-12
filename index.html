@@ -5,30 +5,60 @@
 	<title>Task 1</title>
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<style>
+		.card img{
+		  width: 150px;
+		  height: 150px;
+		  margin: 10px auto;
+		}
+
+		.card-text.card-text--desc{
+		  margin-top: -10px;
+		}
+
+		.card-text.card-text--price{
+		  font-size: 1.2em;
+		  font-weight: 600;
+		  margin-top: -15px;
+		}
+	</style>
 </head>
 <body>
-	<div class="container">
-		<div class="row" id="app">
-			<good></good>
-		</div>
+	<div class="container" style="margin: 15px 0" id="app">
+	  <div class="row">
+	    <div class="col-lg-12" style="margin-bottom: 15px">
+	      <button class="btn btn-primary" v-bind:sortMode="sortMode" v-on:click="sort(productData)">
+	        {{ buttonText }}
+	      </button>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <good
+	      v-for="prod in productData"
+	      v-bind:key="prod.id"
+	      v-bind:photo="prod.photo"
+	      v-bind:name="prod.name"
+	      v-bind:description="prod.description"
+	      v-bind:price="prod.price"          
+	    ></good>
+	  </div>
 	</div>
 
 	<template id="good-template">
-		<div class="col-lg-4 col-md-3 col-sm-2 col-xs-1 good">
-			<div class="card">
-				<img src="..." class="card-img-top" alt="...">
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-		</div>
+	  <div class="col-lg-4 col-md-3 col-sm-1 col-xs-1 good">
+	    <div class="card">
+	      <img v-bind:src="photo" class="card-img-top" v-bind:alt="name">
+	      <div class="card-body">
+	        <h5 class="card-title">{{ name }}</h5>
+	        <p class="card-text card-text--desc">{{ description }}</p>
+	        <p class="card-text card-text--price text-primary" >Цена: {{ price }} ₽</p>
+	      </div>
+	    </div>
+	  </div>
 	</template>
 	
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
-	<script type="text/javascript" src="products.jsonp"></script>
 	<script src="app.js"></script>
 </body>
 </html>
