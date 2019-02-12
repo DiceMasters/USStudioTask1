@@ -49,5 +49,8 @@ new Vue({
       .then(function (data) {
         self.productData = data
       })
+      .catch(function(error){
+      	console.log(error)
+      })
 	}
 })
