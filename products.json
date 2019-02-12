@@ -4,13 +4,13 @@
 		"name": "Bosch BGN21800",
 		"description": "fd",
 		"photo": "https://img.mvideo.ru/Pdb/20032232b.jpg",
-		"price": "5790"
+		"price": 5790
 	},
 	{
 		"id": 1,
 		"name": "Samsung SC20M2540JN",
 		"description": "df",
 		"photo": "https://img.mvideo.ru/Pdb/20037982b.jpg",
-		"price": "7690"
+		"price": 7690
 	}
 ]
